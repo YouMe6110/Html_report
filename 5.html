@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+
+        ​ body {
+            margin: 0;
+            padding: 0;
+        }
+
+        ​ .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm 1.5cm 2cm 1.5cm;
+            margin: auto;
+        }
+
+        ​ @page {
+            size: A4;
+            margin: 0;
+        }
+
+        ​ @media print {
+            .page {
+                margin: 0;
+                border: initial;
+                border-radius: initial;
+                width: initial;
+                min-height: initial;
+                box-shadow: initial;
+                background: initial;
+                page-break-after: always;
+            }
+        }
+
+        ​ .graph1 {
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            margin-bottom: 10px;
+        }
+
+        ​ .graph2 {
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+​
+
+<body>
+    <div class="page">
+        <div class="graph1"></div>
+        <div class="graph2"></div>
+        <h4>4. 개별점수 득점 분포 현황 분석</h4>
+        <span style="font-weight:bold">
+            <p>
+                표준편차는 분포에서 개인점수와 중간점수 간의 평균차이이다.<br>표준편차 값이 클수록 평균에서 떨어진 값이 많다는 것이다.
+            </p>
+        </span>
+        <ul>
+            <li>표준 편차가 <span style="color:#FE0000">13.14이므로 평균에서 떨어진 정도가 크다.</span>(+쪽으로, -쪽으로)</li>
+            <li>최고 점수는 100점으로 +21.1 떨어져 있고 최하 점수는 60.0점으로 -18.9 떨어져있다.<br>그 갭을 보면 30.0이다. 편차가 크다.</li>
+            <li>하위그룹(60-64미만): 백은주, 진동미-2명으로 학습지도할 때 각별히 신경을 써야한다.</li>
+            <li>백은주, 진동미 2명을 제외하고는 학습지도 하는데 큰 문제없음.</li>
+        </ul>
+        ​
+        <h4>5. 성취수준 분석</h4>
+        <ul>
+            <li>1수준 0명, 2수준 0명이고, 3수준은 6명(60점~74점) 4수준 6명(75~89점)</li>
+        </ul>
+    </div>
+</body>
+
+</html>
