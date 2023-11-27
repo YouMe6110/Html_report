@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+
+        ​ body {
+            margin: 0;
+            padding: 0;
+        }
+
+        ​ .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm 1.5cm 2cm 1.5cm;
+            margin: auto;
+        }
+
+        ​ @page {
+            size: A4;
+            margin: 0;
+        }
+
+        ​ @media print {
+            .page {
+                margin: 0;
+                border: initial;
+                border-radius: initial;
+                width: initial;
+                min-height: initial;
+                box-shadow: initial;
+                background: initial;
+                page-break-after: always;
+            }
+        }
+
+        ​ table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        ​ th,
+        td {
+            border: 1px solid black;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 10px 5px;
+            text-align: center;
+        }
+
+        ​ th {
+            font-weight: normal;
+        }
+
+        ​ @page {
+            size: A4;
+            margin: 0;
+        }
+
+        ​ @media print {
+            .page {
+                margin: 0;
+                border: initial;
+                border-radius: initial;
+                width: initial;
+                min-height: initial;
+                box-shadow: initial;
+                background: initial;
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h3>■ 개별성적현황</h3>
+        <table>
+            <colgroup>
+                <col style="width:7%">
+                <col style="width:10%">
+                <col style="width:13%">
+                <col style="width:13%">
+                <col style="width:13%">
+                <col style="width:13%">
+                <col style="width:10%">
+                <col style="width:10%">
+                <col style="width:10%">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th colspan="9">대상자 점수현황</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>번호</td>
+                    <td>성명</td>
+                    <td>신생아 건강상태 관리하기</td>
+                    <td>신생아 위생관리</td>
+                    <td>신생아 이상징후 관리하기</td>
+                    <td>특수신생아 관리</td>
+                    <td>득점점수</td>
+                    <td>수준</td>
+                    <td>편차</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>백○○​</td>
+                    <td>75</td>
+                    <td>37.5</td>
+                    <td>60</td>
+                    <td>30</td>
+                    <td>67.5</td>
+                    <td>3</td>
+                    <td>-11.4</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>홍○○​</td>
+                    <td>90</td>
+                    <td>45</td>
+                    <td>86.7</td>
+                    <td>43.35</td>
+                    <td>88.35</td>
+                    <td>4</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>안○○​</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>100</td>
+                    <td>5</td>
+                    <td>21.1</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>정○○​</td>
+                    <td>85</td>
+                    <td>42.5</td>
+                    <td>60</td>
+                    <td>30</td>
+                    <td>72.5</td>
+                    <td>3</td>
+                    <td>-6.4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>문○○​</td>
+                    <td>65</td>
+                    <td>32.5</td>
+                    <td>63.3</td>
+                    <td>31.65</td>
+                    <td>64.15</td>
+                    <td>3</td>
+                    <td>-14.7</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>이○○​</td>
+                    <td>70</td>
+                    <td>35</td>
+                    <td>60</td>
+                    <td>30</td>
+                    <td>65</td>
+                    <td>3</td>
+                    <td>-13.9</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>노○○​</td>
+                    <td>65</td>
+                    <td>32.5</td>
+                    <td>60</td>
+                    <td>30</td>
+                    <td>65</td>
+                    <td>3</td>
+                    <td>-14.7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>문○○​</td>
+                    <td>80</td>
+                    <td>40</td>
+                    <td>80</td>
+                    <td>40</td>
+                    <td>80</td>
+                    <td>4</td>
+                    <td>1.1</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>성○○​</td>
+                    <td>90</td>
+                    <td>45</td>
+                    <td>80</td>
+                    <td>40</td>
+                    <td>85</td>
+                    <td>4</td>
+                    <td>6.1</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>임○○​</td>
+                    <td>90</td>
+                    <td>45</td>
+                    <td>86.7</td>
+                    <td>43.35</td>
+                    <td>88.35</td>
+                    <td>4</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>배○○​</td>
+                    <td>85</td>
+                    <td>42.5</td>
+                    <td>80</td>
+                    <td>40</td>
+                    <td>82.5</td>
+                    <td>4</td>
+                    <td>3.6</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>양○○​</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>100</td>
+                    <td>5</td>
+                    <td>21.1</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>표○○​</td>
+                    <td>90</td>
+                    <td>45</td>
+                    <td>86.7</td>
+                    <td>43.35</td>
+                    <td>88.35</td>
+                    <td>4</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>심○○​</td>
+                    <td>60</td>
+                    <td>30</td>
+                    <td>60</td>
+                    <td>30</td>
+                    <td>60</td>
+                    <td>3</td>
+                    <td>-18.9</td>
+                </tr>
+                <tr>
+                    <td colspan="2">평균</td>
+                    <td>81.8</td>
+                    <td>40.9</td>
+                    <td>76.0</td>
+                    <td>38.0</td>
+                    <td>78.9</td>
+                    <td>3.7</td>
+                    <td>표준편차 : 13.14</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
