@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+
+        ​ body {
+            margin: 0;
+            padding: 0;
+        }
+
+        ​ .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm 1.5cm 2cm 1.5cm;
+            margin: auto;
+        }
+
+        ​ @page {
+            size: A4;
+            margin: 0;
+        }
+
+        ​ @media print {
+            .page {
+                margin: 0;
+                border: initial;
+                border-radius: initial;
+                width: initial;
+                min-height: initial;
+                box-shadow: initial;
+                background: initial;
+                page-break-after: always;
+            }
+        }
+
+        ​ table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        ​ th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        ​ th {
+            font-weight: bold;
+        }
+
+        ​ .graph {
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+​
+
+<body>
+    <div class="page">
+        <h4>■ 능력단위별 평가결과 그래프</h4>
+        <div class="graph"></div>
+        <h4>■ 결석자 평가계획: 해당없음</h4>
+        <table>
+            <colgroup>
+                <col style="width:10%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>연번</th>
+                    <th>대상자</th>
+                    <th>결석자 사유</th>
+                    <th>평가 일자</th>
+                    <th>비고</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        ​
+        <h4>■ 재평가 계획:</h4>
+        <table>
+            <colgroup>
+                <col style="width:10%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>연번</th>
+                    <th>대상자</th>
+                    <th>재평가 사유</th>
+                    <th>재평가 일자</th>
+                    <th>비고</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>노○○​​</td>
+                    <td>60점 미만자</td>
+                    <td>2020.11.24</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        ​
+        <h4>3. 평균 대 개별득점 평가 분석</h4>
+        <ul>
+            <li><span style="font-weight:bold">평균 78.9점보다 상위점수는 8명(57.1%), 하위 점수 분포는 6명(42.9%)</span></li>
+            <li><span style="font-weight:bold">반 전체 성취수준은 보통(3.7) 수준으로서</span>
+                해당 지식과 기술을 대부분 습득하여 직무수행에 필요한 지식과 기술을 가지고
+                <span style="font-weight:bold">대부분의 작업을 수행</span>할 수 있다.</li>
+        </ul>
+    </div>
+</body>
+
+</html>
